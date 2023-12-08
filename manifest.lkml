@@ -1,19 +1,19 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "cortexdevconnection"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "dnow-cortex-development"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "REPORT_DNOW_POC"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "300"
   export: override_required
 }
